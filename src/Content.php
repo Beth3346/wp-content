@@ -1,5 +1,4 @@
 <?php
-
 namespace WpContent;
 
 class Content
@@ -8,7 +7,7 @@ class Content
 
     public function __construct()
     {
-        $this->query = new Query;
+        $this->query = new \WpSeek\Query;
     }
 
     public function title($content, $tag = 'h3')
